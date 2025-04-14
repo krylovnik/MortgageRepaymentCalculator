@@ -1,10 +1,11 @@
 import React from 'react';
+import s from "./CalculatorResult.module.css"
 
 const CalculatorResult = () => {
     return (
-        <div>
-            
-        </div>
+        <section className={s.container}>
+            Result
+        </section>
     );
 };
 

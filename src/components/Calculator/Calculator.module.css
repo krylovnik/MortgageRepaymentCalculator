@@ -1,0 +1,28 @@
+.calculatorContainer {
+    width: 500px;
+    padding: 40px 30px;
+}
+
+
+.titleContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.clearAll {
+    background: none;
+    cursor: pointer;
+    border: none;
+    color: grey;
+    font: inherit;
+    text-decoration: #c1c1c1 underline;
+}
+
+.input {
+    padding: 12px 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
