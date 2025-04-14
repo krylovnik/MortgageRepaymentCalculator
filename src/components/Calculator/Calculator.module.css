@@ -3,7 +3,6 @@
     padding: 40px 30px;
 }
 
-
 .titleContainer {
     display: flex;
     justify-content: space-between;
@@ -21,8 +20,52 @@
 
 .input {
     padding: 12px 20px;
+    border: 2px solid grey;
     border-radius: 5px;
     width: 100%;
 }
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.inputsWrapper  {
+    display: flex;
+    margin-top: 30px;
+    gap: 16px;
+    width: 100%;
+}
+.inputsWrapper > * {
+    flex: 1;
+    min-width: 0;
+}
+.radioInputLabel {
+    display: block;
+    color: #526973;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 30px 0 10px 0;
+}
 
-
+.formButton {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+    border-radius: 30px;
+    margin-top: 30px;
+    background-color: #d1dd00;
+    border: none;
+    font-weight: 700;
+    gap: 8px;
+    line-height: 1;
+}
+.buttonIcon {
+    height: 20px;
+    width: 20px;
+    flex-shrink: 0;
+}
+.buttonText {
+    font-size: 16px;
+    font-weight: 700;
+}

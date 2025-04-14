@@ -1,0 +1,54 @@
+.fullWidthWrapper {
+    width: 100%;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: stretch;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: border-color 0.3s ease;
+}
+.inputLabel {
+    display: block;
+    color: #526973;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.inputSign {
+    line-height: 1;
+    background-color: #E3F3FD;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #333;
+    opacity: 0.7;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+}
+
+.input {
+    min-width: 0;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    flex: 1;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.inputContainer:focus-within {
+    border-color: #d1dd00;
+}
+
+.inputContainer:focus-within .inputSign {
+    background-color: #d1dd00;
+}
+

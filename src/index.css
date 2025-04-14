@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #d3e1ff;
+  background-color: #E3F3FD;
 }
