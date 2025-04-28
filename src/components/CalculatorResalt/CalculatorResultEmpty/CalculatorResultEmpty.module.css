@@ -1,0 +1,26 @@
+.container {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 40px 50px;
+    background-color: #242e47;
+    border-radius: 0 20px 20px 80px;
+}
+.imageEmpty {
+    height: 150px;
+    width: 150px;
+    flex-shrink: 0;
+}
+
+.mainText {
+    color: white;
+}
+.additionalText {
+    color: #82aabc;
+    font-size: 13px;
+    text-align: center;
+    line-height: 20px;
+}

@@ -1,0 +1,43 @@
+.container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 40px 50px;
+    background-color: #242e47;
+    border-radius: 0 20px 20px 80px;
+}
+.mainText {
+    color: white;
+}
+.additionalText {
+    color: #82aabc;
+    font-size: 13px;
+    line-height: 20px;
+}
+.resultBox {
+    background-color: #141a29;
+    padding: 35px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border-top: 4px solid #d1dd00;
+}
+.repaymentResultContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.monthlyRepaymentResult {
+    color: #d1dd00;
+    font-size: 45px;
+}
+.totalRepaymentResult {
+    color: white;
+    font-size: 20px;
+}
+.divider {
+    height: 1px;
+    width: 100%;
+    background-color: rgb(130, 170, 180, 0.5 );
+    margin: 30px 0;
+}

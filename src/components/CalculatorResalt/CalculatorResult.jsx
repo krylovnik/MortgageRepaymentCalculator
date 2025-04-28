@@ -1,11 +1,14 @@
 import React from 'react';
-import s from "./CalculatorResult.module.css"
+import CalculatorResultEmpty from "./CalculatorResultEmpty/CalculatorResultEmpty.jsx";
+import CalculatorResultCounted from "./CalculatorResultCounted/CalculatorResultCounted.jsx";
 
-const CalculatorResult = () => {
+const CalculatorResult = ({isResult}) => {
     return (
-        <section className={s.container}>
-            Result
-        </section>
+        isResult ?
+            <CalculatorResultCounted />
+            :
+            <CalculatorResultEmpty />
+
     );
 };
 
